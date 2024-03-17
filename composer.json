@@ -1,0 +1,31 @@
+{
+  "name": "sequelone/local-file",
+  "description": "A small php library that adds some functions to operate on local files, like an efficient line count function.",
+  "type": "library",
+  "require": {
+    "php": "^7.3||^7.4||^8.0||^8.1||^8.2||^8.3"
+  },
+  "require-dev": {
+    "mikey179/vfsstream": "^1.6",
+    "phpunit/phpunit": "^9.5 || ^10.5 || ^11.0",
+    "php-coveralls/php-coveralls": "^2.4"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrej Kopp",
+      "email": "admin@sequel.one"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "SequelONE\\LocalFile\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SequelONE\\LocalFile\\Tests\\": "tests"
+    }
+  }
+}
